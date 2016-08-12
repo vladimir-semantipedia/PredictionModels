@@ -5,14 +5,7 @@ import json
 import calendar
 import datetime
 import copy
-#import numpy as np
-from sklearn import datasets, linear_model
-from sklearn.linear_model import LinearRegression
-from sklearn.isotonic import IsotonicRegression
-from sklearn.utils import check_random_state
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.ensemble import AdaBoostRegressor
-from sklearn.svm import SVR
+
 
 class HTTPHelper(object):
     def __init__(self):
